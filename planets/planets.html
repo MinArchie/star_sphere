@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Multiple Background Images</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="planet.js"></script>
+  <style>
+  /* Navigation bar */
+    nav {
+      background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.2));
+      opacity: 0.5;
+      height: 10vh;
+      width: 100%;
+      position: fixed;
+      margin: auto;
+      padding-left: 90px;
+      z-index: 100;
+      display: flex;
+      align-items: center;
+      box-shadow: 0 5px 5px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.24);
+    }
+
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      margin-right: 3vh;
+    }
+
+    nav ul li a{
+      text-decoration: none;
+      color: #fff;
+    }
+   a{
+      font-size:12px;
+    }
+    .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        /* Style for the dropdown button */
+        .dropdown img {
+            cursor: pointer;
+        }
+
+        /* Style for the dropdown content */
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+            z-index: 1;
+        }
+
+        /* Style for dropdown content items */
+        .dropdown-content a {
+            color: black;
+            padding: 12px 16px;
+            text-decoration: none;
+            display: block;
+        }
+
+        /* Change color on hover */
+        .dropdown-content a:hover {
+            background-color: #f1f1f1;
+        }
+
+        /* Show the dropdown content when the dropdown button is clicked */
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+        .links{
+          position: relative;
+          left:120vh;
+
+        }
+  </style>
+</head>
+<body>
+ <div class="nav">
+  <nav style="width: 100%;"> 
+    <ul style="display: flex; justify-content: space-between; align-items: center; padding: 0; margin: 0;"> 
+      <div class="dropdown">
+        <img src="logo.png" width="65" height="65 ">
+          <div class="dropdown-content">
+            <a href="#one">Mercury</a>
+            <a href="#two">Venus</a>
+            <a href="#three">Earth</a>
+            <a href="#four">Mars</a>
+            <a href="#five">Jupiter</a>
+            <a href="#six">Saturn</a>
+            <a href="#seven">Uranus</a>
+            <a href="#eight">Neptune</a>
+        </div>
+      </div>                                                          
+      <div class="links">
+        <li><a href="..\home_page\selector_page.html" style="color: white; font-size: 20px;">home</a></li> 
+        <li><a href="..\space_invaders\space_invaders.html" style="color: white; font-size: 20px ;" >space invaders</a></li> 
+        <li><a href="..\solar_system\solar.html" style="color: white; font-size: 20px;">solar system</a></li> 
+        
+      </div>
+        
+    </ul> 
+</nav>
+  
+ </div>
+  <div class="container">
+  
+      <section id="one">
+        <div id="mercuryi">
+          <img id="meri"src="mercury.png" alt="">
+        </div>
+        <div id="mercuryinfo">
+          <h1>Mercury</h1>
+          <p>Mercury, the smallest planet in our solar system, is situated closest to the Sun, orbiting at a distance of approximately 57.9 million kilometers. Its rocky and cratered surface bears a resemblance to Earth's Moon. With extreme temperature variations, ranging from scorching daytime highs of around 430 degrees Celsius to frigid nighttime lows of about -180 degrees Celsius, Mercury experiences harsh environmental conditions. The planet has a slow rotation on its axis, taking about 59 Earth days for one complete rotation, resulting in a day-night cycle lasting approximately 176 Earth days. Despite its proximity to the Sun, Mercury has a thin atmosphere, composed mainly of trace gases, and lacks a significant atmosphere due to its low gravity. Named after the Roman messenger god, Mercury has been the focus of exploration by missions such as Mariner 10 and MESSENGER, revealing insights into its magnetic field, surface composition, and geological features. Interestingly, Mercury does not have any natural moons, and it is visible to the naked eye from Earth, typically appearing shortly before sunrise or after sunset.
+          </p>
+        </div>
+      </section>
+
+    <section id="two">
+      <div id="venusi">
+        <img id = "vi" src="venus.png" alt="">
+      </div>
+      <div id="venusinfo">
+        <h1>Venus</h1>
+        <p>
+          Venus, the second planet from the Sun, stands out as Earth's closest planetary neighbor. With a diameter and mass similar to Earth's, Venus is often referred to as Earth's "sister planet." It orbits the Sun at an average distance of about 108 million kilometers. Venus possesses a thick atmosphere primarily composed of carbon dioxide, with clouds of sulfuric acid, contributing to a runaway greenhouse effect that makes it the hottest planet in our solar system. Surface temperatures can soar to a scorching 465 degrees Celsius (869 degrees Fahrenheit). Venus has a slow rotation on its axis, taking about 243 Earth days to complete one rotation, but interestingly, it has a shorter day-night cycle of approximately 117 Earth days. The planet's surface is characterized by vast plains, highland regions, and numerous volcanoes. Venus lacks a magnetic field, and its atmosphere prevents observations of its surface from space, leading to a shroud of mystery. Despite challenges in exploration due to its harsh conditions, various missions, including NASA's Magellan, have provided valuable data about Venus's geology and atmosphere. It has no moons and is visible as the "Evening Star" or "Morning Star" from Earth, depending on its position relative to the Sun.
+        </p>
+      </div>
+    </section> 
+ 
+    <section id="three"> 
+      <div id="earthi">
+        <img id ="ei" src="earth.png" alt="">
+      </div>
+      <div id="earthinfo">
+        <h1>Earth</h1>
+        <p>
+          Earth, the third planet from the Sun, is the only known celestial body to support life. With a diverse and dynamic environment, Earth orbits the Sun at an average distance of about 150 million kilometers. It has a diameter of approximately 12,742 kilometers and is characterized by a complex geology and diverse ecosystems. Earth's surface is composed of continents and oceans, hosting a rich variety of life forms. The atmosphere, primarily composed of nitrogen and oxygen, sustains life and protects the planet from the harshness of space. Earth's moderate temperatures, ranging from around -88 degrees Celsius to 58 degrees Celsius (-126 to 136 degrees Fahrenheit), make it suitable for a wide range of life forms. The planet has a rotation period of about 24 hours, giving rise to a day-night cycle. Earth's magnetic field, generated by its molten iron core, protects it from harmful solar radiation. Human activities, such as space exploration and environmental changes, have left a significant impact on Earth. It has one natural satellite, the Moon, which influences tides and has been a source of fascination and inspiration throughout history. The quest for understanding Earth's intricacies continues through scientific research, exploration, and environmental conservation efforts.
+        </p>
+      </div>
+    </section>
+ 
+    <section id="four">
+      <div id="marsi">
+        <img id="mi" src="mars.png" alt="">
+      </div>
+      <div id="marsinfo">
+        <h1>Mars</h1>
+        <p>
+          Mars, the fourth planet from the Sun, is renowned for its distinct reddish hue and has long intrigued observers. Positioned at an average distance of approximately 228 million kilometers, Mars boasts diverse surface features, including expansive deserts, towering volcanoes such as Olympus Mons, and the vast Valles Marineris canyon system. With a diameter of about 6,779 kilometers, Mars experiences a thin atmosphere primarily composed of carbon dioxide, featuring surface temperatures ranging from -87 degrees Celsius near the poles to 20 degrees Celsius in equatorial regions. Exhibiting seasons akin to Earth due to its axial tilt, Mars has been a focal point of exploration, with missions like Spirit, Opportunity, and Curiosity uncovering crucial insights into its geology and climate history. Ongoing efforts aim to ascertain the potential for past liquid water and the existence of extraterrestrial life. Hosting two irregularly shaped moons, Phobos and Deimos, Mars continues to be a key target for future human missions, driving advancements in space exploration and scientific understanding.
+        </p>
+      </div>
+    </section>
+    <section id="five">
+      <div id="jupiteri">
+        <img src="jupiter.png" alt="" id="ji">
+      </div>
+      <div id="jupiterinfo">
+        <h1>Jupiter</h1>
+        <p>
+          Jupiter, the largest planet in our solar system, is a gas giant situated as the fifth planet from the Sun. With a colossal diameter of approximately 139,822 kilometers, Jupiter's immense size sets it apart. Positioned at an average distance of about 778 million kilometers from the Sun, it plays a crucial role in influencing the dynamics of the solar system. Jupiter's atmosphere is predominantly composed of hydrogen and helium, featuring prominent cloud bands and the iconic Great Red Spot, a massive storm system that has endured for centuries. The planet has a powerful magnetic field, exceeding that of any other planet in our solar system, and a diverse system of moons, with the four largest—Io, Europa, Ganymede, and Callisto—known as the Galilean moons. Jupiter's rapid rotation on its axis results in a day lasting less than 10 hours. Exploration missions, such as NASA's Juno spacecraft, continue to deepen our understanding of Jupiter's atmospheric composition, magnetic field, and internal structure, contributing to the broader knowledge of giant planets and their formation.
+        </p>
+      </div>
+    </section>
+    <section id="six">
+      <div id="saturni">
+        <img id="si" src="saturn.png" alt="">
+      </div>
+      <div id="saturninfo">
+        <h1>Saturn</h1>
+        <p>
+          Saturn, the sixth planet from the Sun, is a captivating gas giant renowned for its stunning ring system. With a diameter of approximately 116,464 kilometers, Saturn is the second-largest planet in our solar system. Positioned at an average distance of about 1.4 billion kilometers from the Sun, its iconic ring system, made up of ice particles and debris, sets it apart. Saturn's atmosphere is mainly composed of hydrogen and helium, featuring intricate cloud patterns and a hexagonal storm at its north pole. The planet has a robust magnetic field and a diverse family of moons, with Titan being the largest and known for its thick atmosphere and lakes of liquid methane and ethane. Saturn's rapid rotation on its axis results in a day lasting about 10.7 hours. Exploration missions, including NASA's Cassini spacecraft, have provided invaluable data about Saturn's rings, atmosphere, and moons, enhancing our understanding of the planet's complex and dynamic nature. Ongoing scientific endeavors aim to uncover more about Saturn's mysteries, contributing to our broader knowledge of the outer solar system.
+        </p>
+      </div>
+    </section>
+  
+    <section id="seven">
+      <div id="uranusi">
+        <img src="uranus.png" alt="" id="ui">
+      </div>
+      <div id="uranusinfo">
+        <h1>Uranus</h1>
+        <p>
+          Uranus, the seventh planet from the Sun, stands out in our solar system for its distinct sideways rotation and pale blue-green appearance. With a diameter of about 50,724 kilometers, Uranus is classified as an ice giant. Positioned at an average distance of approximately 2.9 billion kilometers from the Sun, it takes about 84 Earth years to complete one orbit. Uranus' atmosphere is primarily composed of hydrogen and helium, with traces of methane that give the planet its unique color. The sideways tilt of Uranus on its axis results in extreme seasonal variations as different hemispheres receive varying amounts of sunlight during its long orbital period. The planet has a ring system, though it is not as prominent as those of Saturn, and a collection of 27 known moons. Uranus has been visited by only one spacecraft, Voyager 2, which provided valuable data about its atmosphere, rings, and magnetic field. Ongoing exploration efforts aim to further unravel the mysteries of this enigmatic ice giant and its unusual characteristics in the outer reaches of our solar system.
+        </p>
+      </div>
+    </section>
+ 
+    <section id="eight">
+      <div id="neptuni">
+        <img src="neptune.png" alt="" id="ni">
+      </div>
+      <div id="neptuneinfo">
+        <h1>Neptune</h1>
+        <p>
+          Neptune, the eighth and farthest known planet from the Sun, is a distant and mysterious ice giant. With a diameter of approximately 49,244 kilometers, Neptune completes its orbit at an average distance of about 4.5 billion kilometers. This planet is characterized by its deep blue color, attributed to the presence of methane in its atmosphere. Neptune boasts powerful storms, including the Great Dark Spot, similar to Jupiter's Great Red Spot. The atmosphere is predominantly composed of hydrogen and helium, along with traces of methane and other hydrocarbons. Neptune has a dynamic weather system, with winds reaching incredibly high speeds, and its interior conceals a potential rocky core. The planet has a faint ring system and a diverse family of 14 known moons, including Triton, notable for its retrograde orbit and potential geysers of nitrogen. Limited direct exploration has been conducted, with Voyager 2 providing crucial insights into Neptune's atmosphere, rings, and moons. Ongoing astronomical observations and future missions aim to deepen our understanding of Neptune's composition, weather patterns, and its role in the outer solar system.
+        </p>
+      </div>
+    </section>
+    
+ 
+    
+  </div>
+
+
+</body>
+</html>

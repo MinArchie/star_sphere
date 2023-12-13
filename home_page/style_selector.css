@@ -1,0 +1,305 @@
+
+body {
+    background: #fff;
+    margin: 0;
+}
+
+#curve {
+    fill: transparent;
+}
+
+#curve2 {
+    fill: transparent;
+}
+
+.text {
+    font-size: 90px;
+    fill: white;
+
+}
+
+p {
+    font-size: 24px;
+}
+
+h1 {
+    font-size: 90px;
+    color: #fff;
+}
+
+h2 {
+    font-size: 40px;
+}
+
+a:link {
+    color: #054569;
+    text-decoration: none;
+}
+
+a:visited {
+    color: #054569;
+}
+
+a:active {
+    color: #9CCDDC;
+}
+
+/* Navigation bar */
+nav {
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.2));
+    opacity: 0.5;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    margin: auto;
+    padding-left: 90px;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 3vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}
+
+
+/*CONTENET*/
+header{
+    width: 100%;
+    height: 100vh;
+}
+
+.bg {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(back_ground.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content{
+    width: 90%;
+    height: 70%;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+footer {
+    background: #fff;
+    height: 80vh;
+    width: 100%;
+    position: relative;
+}
+
+.bgf {
+   
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100vh;
+    overflow: hidden;
+    background: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.5)), url(back_ground.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+@keyframes animateBg {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.2);
+    }
+}
+
+  
+  /* Add some content at the bottom of the video/page */
+  .content {
+    position: fixed;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.5);
+    color: #f1f1f1;
+    width: 100%;
+    padding: 20px;
+  }
+  
+  /* Style the button used to pause/play the video */
+  #myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: none;
+    background: #000;
+    color: #fff;
+    cursor: pointer;
+  }
+  
+  #myBtn:hover {
+    background: #ddd;
+    color: black;
+  }
+
+.contentf {
+    width: 90%;
+    height: 70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.kolom {
+    margin: 10px;
+    width: 30%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    border-radius: 10px;
+    overflow: hidden;
+    opacity: 1.0;
+}
+
+
+
+.kolom .atas {
+    width: 100%;
+    height: 60%;
+    background: #054569;
+}
+
+.kolom .atas img {
+    width: 50%;
+    display: block;
+    margin-top: 50px;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: auto;
+    background-size: cover;
+}
+
+.kolom .tengah {
+    width: 100%;
+    height: 10%;
+    background: #CED7E0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.kolom .bawah {
+    width: 100%;
+    height: 30%;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #333;
+}
+
+.kolom .bawah p {
+    width: 80%;
+    height: auto;
+    text-align: center;
+}
+
+
+
+@media screen and (max-width: 480px) {
+    nav {
+        padding-left: 10px;
+    }
+
+    .kolom {
+        width: 100%; 
+        position: relative; 
+    }
+
+    .kolom .atas {
+        height: 20%;
+    }
+
+    .kolom .atas img {
+        width: 80%;
+    }
+
+    .kolom .tengah,
+    .kolom .bawah {
+        width: 100%;
+        height: auto;
+        font-size: 10px; 
+    }
+
+    h1 {
+        font-size: 10px;
+    }
+
+    p {
+        font-size: 0px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 1024px) {
+    .kolom {
+        width: 30%;
+    }
+
+    .kolom .atas img {
+        width: 50%;
+    }
+
+    h2 {
+        font-size: 30px;
+    }
+
+    p {
+        font-size: 20px;
+    }
+}
+
+nav {
+    background: linear-gradient(rgba(255,255,255,0.1), rgba(255,255,255,0.2));
+    opacity: 0.5;
+    height: 10vh;
+    width: 100%;
+    position: fixed;
+    z-index: 100;
+    display: flex;
+    align-items: center;
+    box-shadow: 0 5px 5px rgba(0, 0, 0, 0.24), 0 1px 2px rgba(0, 0, 0, 0.24);
+}
+
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 3vh;
+}
+
+nav ul li a{
+    text-decoration: none;
+    color: #fff;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Space Invaders</title>
+        <link rel="stylesheet" href="space_invaders.css">
+        
+        <script src="space_invaders.js"></script>
+    </head>
+
+    <body>
+        
+    <nav>
+        <ul>
+            <li><a href="..\home_page\selector_page.html">home</a></li>
+            <li><a href="..\solar_system\solar.html">solar system</a></li>
+            <li><a href="..\planets\planets.html">planets</a></li>
+        </ul>
+    </nav>
+        <h1>SPACE INVADERS</h1>
+        <canvas id="board"></canvas>
+        <br>
+        <br>
+        <div>
+            <h3>Press SPACE to shoot; Use ARROW KEYS to navigate</h3>
+        </div>
+        <button id="resetButton">Reset Game</button>
+    <script>
+        document.getElementById("resetButton").addEventListener("click", resetGame);
+
+        function resetGame() {
+            // Reset all game variables to their initial values
+            ship.x = shipX;
+            ship.y = shipY;
+            alienArray = [];
+            bulletArray = [];
+            alienColumns = 3;
+            alienRows = 2;
+            alienVelocityX = 1;
+            alienCount = 0;
+            score = 0;
+            gameOver = false;
+            createAliens();
+        }
+
+    </script>
+    </body>
+</html>

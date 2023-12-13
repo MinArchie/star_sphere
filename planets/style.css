@@ -1,0 +1,165 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+*
+{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins",sans-serif;
+}
+.container{
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+  display:inline-flex;
+  clear: both;
+  flex-wrap: wrap;
+}
+
+h1
+{
+  color:  rgb(226,226,226);
+  text-shadow: 1px 1px 4px #000;
+
+}
+p{
+  color:  rgb(226,226,226);
+}
+section
+{
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  scroll-snap-align: start;
+}
+
+#one{
+  background-image:url("space.jpg");
+  background-size:cover;
+  background-repeat: no-repeat;
+  
+}
+#two{
+  background-color:#936639;
+}
+#three{
+  background-color:#001427;
+}
+#four{
+  background-color: grey;
+}
+#five{
+  background-color:#342D25;
+}
+#six{
+  background-color:#645D4C;
+}
+#seven{
+  background-color:#71959B;
+}
+#eight{
+  background-color: #2F3D97;
+}
+
+/* mercury  */
+
+#mercuryi{
+  position: relative;
+  right: vh;
+}
+#mercuryinfo
+{
+  position: relative;
+  right:  10vh;
+  
+}
+
+/* venus */
+
+#venusi{
+  position: relative;
+}
+#vi{
+  width:500px;
+  height: 500px;
+}
+#venusinfo
+{
+  position: relative;
+  margin: 30px;
+}
+
+/* earth */
+
+#earthi{
+  position: relative;
+}
+#ei{
+  width:500px;
+  height: 500px;
+}
+#earthinfo
+{
+  position: relative;
+  margin: 30px;
+}
+
+/* Mars */
+
+#marsi{
+  position: relative;
+}
+
+#marsinfo
+{
+  position: relative;
+  margin: 30px;
+}
+
+/* jupiter*/
+
+#jupiteri{
+  position: relative;
+}
+#jupiterinfo
+{
+  position: relative;
+  margin: 30px;
+}
+/* Saturn */
+
+#saturni{
+  position: relative;
+ }
+
+ #saturninfo
+ {
+  position: relative;
+  margin: 30px;
+ }
+ 
+ /* Uranus */
+ 
+ #uranusi{
+  position: relative;
+ }
+
+ #uranusinfo
+ {
+  position: relative;
+  margin: 30px;
+ }
+ 
+ /* Neptune */
+ 
+ #neptuni{
+  position: relative;
+ }
+
+ #neptuneinfo
+ {
+  position: relative;
+  margin: 30px;
+ }
