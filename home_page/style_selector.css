@@ -80,17 +80,7 @@ header{
     height: 100vh;
 }
 
-.bg {
-    width: 100%;
-    height: 100vh;
-    background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.8)), url(back_ground.jpg);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .content{
     width: 90%;
@@ -126,14 +116,7 @@ footer {
     justify-content: center;
     align-items: center;
 }
-@keyframes animateBg {
-    0%, 100% {
-        transform: scale(1);
-    }
-    50% {
-        transform: scale(1.2);
-    }
-}
+
 
   
   /* Add some content at the bottom of the video/page */
@@ -146,21 +129,6 @@ footer {
     padding: 20px;
   }
   
-  /* Style the button used to pause/play the video */
-  #myBtn {
-    width: 200px;
-    font-size: 18px;
-    padding: 10px;
-    border: none;
-    background: #000;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  #myBtn:hover {
-    background: #ddd;
-    color: black;
-  }
 
 .contentf {
     width: 90%;
